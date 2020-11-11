@@ -1,6 +1,6 @@
 #language: pt
 
-Funcionalidade: Cadastro de Usuários
+Funcionalidade: Cadastro de Usuário
     Sendo um visitante do site Parodify
     Quero fazer o meu cadastro
     Para que eu possa ouvir minhas músicas favoritas
