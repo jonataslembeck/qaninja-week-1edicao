@@ -1,0 +1,6 @@
+default: -p no_cloud_report -p allure -p bdd
+
+no_cloud_report: --publish-quiet # Não publica mais na nuvem
+html: --format html --out=logs/report.html # Gera relatório html na pasta logs
+bdd: --format pretty #exibe resultado no console
+allure: --format AllureCucumber::CucumberFormatter --out=logs
